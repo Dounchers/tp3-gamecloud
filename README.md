@@ -7,7 +7,7 @@ Ranking online de puntajes para Doom y Pac-Man construido con servicios gestiona
 sobre **MiniStack**, un emulador local de AWS, usando las mismas herramientas (AWS CLI) que se
 emplearían contra una cuenta real.
 
-**Alumno:** `<Robertino Mollo>`
+**Alumno:** `Robertino Mollo`
 
 ## Arquitectura
 
