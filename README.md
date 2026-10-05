@@ -69,6 +69,12 @@ dentro de un script.
 
 ### 3. Desplegar toda la arquitectura
 
+`Nota para evaluación en Windows (WSL): Al intentar ejecutar el script de despliegue la terminal de Linux me tiró un error de sintaxis, se debe a que Git adaptó automáticamente los saltos de línea al formato de Windows (CRLF) durante el clonado. Para normalizar los scripts al formato nativo de Linux, tuve que tirar este comando antes de iniciar el deploy:`
+```bash
+sed -i 's/\r$//' scripts/*.sh
+```
+Luego
+
 ```bash
 bash scripts/deploy.sh
 ```
